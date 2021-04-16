@@ -21,3 +21,4 @@
 #define IS_COMMAND() ( \
     get_mods() == (MOD_BIT(KC_LCTL) | MOD_BIT(KC_RCTL)) \
 )
+#define COMBO_COUNT 1
