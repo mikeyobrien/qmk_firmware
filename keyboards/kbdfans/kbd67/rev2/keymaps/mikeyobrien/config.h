@@ -17,6 +17,6 @@
 #pragma once
 
 #define IS_COMMAND() ( \
-    get_mods() == (MOD_BIT(KC_LCTL) | MOD_BIT(KC_HOME)) \
+    get_mods() == (MOD_BIT(KC_LCTL) | MOD_BIT(KC_RCTL)) \
 )
 // place overrides here
